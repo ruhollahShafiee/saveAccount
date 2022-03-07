@@ -1,0 +1,41 @@
+server:
+  port: 8760
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: balance
+          uri: lb://balance
+          predicates:
+            - Path=/balance/**
+          filters:
+            - StripPrefix=1
+        - id: eureka
+          uri: lb://registry
+          predicates:
+            - Path=/eureka/**
+
+info:
+  app:
+    name: ${spring.application.name}
+
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
+    healthcheck:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - mappings
+          - env
+          - health
+          - info

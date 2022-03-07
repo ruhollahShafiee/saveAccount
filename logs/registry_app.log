@@ -1,0 +1,1170 @@
+{
+  "timestamp" : "2022-03-07 04:19:08.058",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.ApiGatewayApplication",
+  "message" : "Starting ApiGatewayApplication v0.0.1-SNAPSHOT using Java 1.8.0_312 on ruhollah-HP with PID 25348 (/home/ruhollah/Documents/self/interview/saveAccount/registry/target/api-registry.jar started by ruhollah in /home/ruhollah/Documents/self/interview/saveAccount)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:08.083",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.ApiGatewayApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:09.755",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.context.scope.GenericScope",
+  "message" : "BeanFactory id=b3d57032-1f25-3b02-a1a0-87a902c8e110",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:11.509",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8761 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:11.521",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8761\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:11.521",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:11.522",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.58]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:11.586",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:11.587",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 3440 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:12.924",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.sun.jersey.server.impl.application.WebApplicationImpl",
+  "message" : "Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:13.028",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using JSON encoding codec LegacyJacksonJson",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:13.030",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using JSON decoding codec LegacyJacksonJson",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:13.205",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using XML encoding codec XStreamXml",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:13.205",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using XML decoding codec XStreamXml",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:16.475",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration",
+  "message" : "Eureka HTTP Client uses Jersey",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:16.568",
+  "level" : "WARN",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger",
+  "message" : "Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:16.592",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.netflix.eureka.InstanceInfoFactory",
+  "message" : "Setting initial instance status as: STARTING",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:16.631",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Initializing Eureka in region us-east-1",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:16.632",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Client configured to neither register nor query for data.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:16.642",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Discovery Client initialized at timestamp 1646614156640 with initial instances count: 0",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:16.689",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Initializing ...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:16.691",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.cluster.PeerEurekaNodes",
+  "message" : "Adding new peer nodes [http://localhost:8761/eureka/]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:16.927",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using JSON encoding codec LegacyJacksonJson",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:16.928",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using JSON decoding codec LegacyJacksonJson",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:16.928",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using XML encoding codec XStreamXml",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:16.928",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using XML decoding codec XStreamXml",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.071",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.cluster.PeerEurekaNodes",
+  "message" : "Replica node URL:  http://localhost:8761/eureka/",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.081",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.registry.AbstractInstanceRegistry",
+  "message" : "Finished initializing remote region registries. All known remote regions: []",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.082",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Initialized",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.097",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver",
+  "message" : "Exposing 1 endpoint(s) beneath base path '/actuator'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.131",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry",
+  "message" : "Registering application REGISTRY with eureka with status UP",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.135",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8761\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.135",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "Setting the eureka configuration..",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.156",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "isAws returned false",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.157",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "Initialized server context",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.157",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl",
+  "message" : "Got 1 instances from neighboring DS node",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.157",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl",
+  "message" : "Renew threshold is: 1",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.157",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl",
+  "message" : "Changing status to UP",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.177",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration",
+  "message" : "Started Eureka Server",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.193",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8761 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.194",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration",
+  "message" : "Updating port to 8761",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:17.220",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.ApiGatewayApplication",
+  "message" : "Started ApiGatewayApplication in 10.496 seconds (JVM running for 11.092)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:17.166",
+  "level" : "INFO",
+  "thread" : "Eureka-EvictionTimer",
+  "logger" : "com.netflix.eureka.registry.AbstractInstanceRegistry",
+  "message" : "Running the evict task with compensationTime 0ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:54.713",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry",
+  "message" : "Unregistering application REGISTRY with eureka with status DOWN",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:54.749",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "Shutting down Eureka Server..",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:54.757",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Shutting down ...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:54.781",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Shut down",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:54.781",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "Eureka Service is now shutdown...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:54.782",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Shutting down ...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:54.787",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Shut down",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:54.800",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Shutting down DiscoveryClient ...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:54.801",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Completed shut down of DiscoveryClient",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:50.830",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.ApiGatewayApplication",
+  "message" : "Starting ApiGatewayApplication v0.0.1-SNAPSHOT using Java 1.8.0_312 on ruhollah-HP with PID 25730 (/home/ruhollah/Documents/self/interview/saveAccount/registry/target/api-registry.jar started by ruhollah in /home/ruhollah/Documents/self/interview/saveAccount)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:50.860",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.ApiGatewayApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:51.983",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.context.scope.GenericScope",
+  "message" : "BeanFactory id=b3d57032-1f25-3b02-a1a0-87a902c8e110",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:52.384",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8761 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:52.395",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8761\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:52.396",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:52.396",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.58]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:52.454",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:52.454",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1541 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:53.084",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.sun.jersey.server.impl.application.WebApplicationImpl",
+  "message" : "Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:53.180",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using JSON encoding codec LegacyJacksonJson",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:53.182",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using JSON decoding codec LegacyJacksonJson",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:53.322",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using XML encoding codec XStreamXml",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:53.323",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using XML decoding codec XStreamXml",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:54.878",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration",
+  "message" : "Eureka HTTP Client uses Jersey",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:54.963",
+  "level" : "WARN",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger",
+  "message" : "Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:54.991",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.netflix.eureka.InstanceInfoFactory",
+  "message" : "Setting initial instance status as: STARTING",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.030",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Initializing Eureka in region us-east-1",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.030",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Client configured to neither register nor query for data.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.039",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Discovery Client initialized at timestamp 1646614375038 with initial instances count: 0",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.096",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Initializing ...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.100",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.cluster.PeerEurekaNodes",
+  "message" : "Adding new peer nodes [http://localhost:8761/eureka/]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.316",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using JSON encoding codec LegacyJacksonJson",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.316",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using JSON decoding codec LegacyJacksonJson",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.316",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using XML encoding codec XStreamXml",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.317",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using XML decoding codec XStreamXml",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.473",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.cluster.PeerEurekaNodes",
+  "message" : "Replica node URL:  http://localhost:8761/eureka/",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.484",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.registry.AbstractInstanceRegistry",
+  "message" : "Finished initializing remote region registries. All known remote regions: []",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.485",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Initialized",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.518",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver",
+  "message" : "Exposing 1 endpoint(s) beneath base path '/actuator'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.553",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry",
+  "message" : "Registering application REGISTRY with eureka with status UP",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.559",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8761\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.568",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "Setting the eureka configuration..",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.652",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "isAws returned false",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.652",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "Initialized server context",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.653",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl",
+  "message" : "Got 1 instances from neighboring DS node",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.653",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl",
+  "message" : "Renew threshold is: 1",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.653",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl",
+  "message" : "Changing status to UP",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.668",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8761 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.674",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration",
+  "message" : "Updating port to 8761",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.685",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration",
+  "message" : "Started Eureka Server",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:55.706",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.ApiGatewayApplication",
+  "message" : "Started ApiGatewayApplication in 6.148 seconds (JVM running for 6.719)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:59.644",
+  "level" : "INFO",
+  "thread" : "http-nio-8761-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:59.645",
+  "level" : "INFO",
+  "thread" : "http-nio-8761-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:59.646",
+  "level" : "INFO",
+  "thread" : "http-nio-8761-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:59.681",
+  "level" : "WARN",
+  "thread" : "http-nio-8761-exec-1",
+  "logger" : "com.netflix.eureka.registry.AbstractInstanceRegistry",
+  "message" : "DS: Registry: cancel failed because Lease is not registered for: API-GATEWAY/192.168.43.50:api-gateway:8760",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:22:59.681",
+  "level" : "INFO",
+  "thread" : "http-nio-8761-exec-1",
+  "logger" : "com.netflix.eureka.resources.InstanceResource",
+  "message" : "Not Found (Cancel): API-GATEWAY - 192.168.43.50:api-gateway:8760",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:04.312",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry",
+  "message" : "Unregistering application REGISTRY with eureka with status DOWN",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:04.329",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "Shutting down Eureka Server..",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:04.345",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Shutting down ...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:04.375",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Shut down",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:04.376",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "Eureka Service is now shutdown...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:04.378",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Shutting down ...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:04.392",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Shut down",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:04.406",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Shutting down DiscoveryClient ...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:04.409",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Completed shut down of DiscoveryClient",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:54.929",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.ApiGatewayApplication",
+  "message" : "Starting ApiGatewayApplication v0.0.1-SNAPSHOT using Java 1.8.0_312 on ruhollah-HP with PID 25978 (/home/ruhollah/Documents/self/interview/saveAccount/registry/target/api-registry.jar started by ruhollah in /home/ruhollah/Documents/self/interview/saveAccount)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:54.964",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.ApiGatewayApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:56.900",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.context.scope.GenericScope",
+  "message" : "BeanFactory id=b3d57032-1f25-3b02-a1a0-87a902c8e110",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:57.526",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8761 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:57.541",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8761\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:57.542",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:57.542",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.58]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:57.612",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:57.612",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 2567 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:58.318",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.sun.jersey.server.impl.application.WebApplicationImpl",
+  "message" : "Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:58.418",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using JSON encoding codec LegacyJacksonJson",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:58.420",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using JSON decoding codec LegacyJacksonJson",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:58.589",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using XML encoding codec XStreamXml",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:58.590",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using XML decoding codec XStreamXml",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:00.499",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration",
+  "message" : "Eureka HTTP Client uses Jersey",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:00.600",
+  "level" : "WARN",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger",
+  "message" : "Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:00.628",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.netflix.eureka.InstanceInfoFactory",
+  "message" : "Setting initial instance status as: STARTING",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:00.665",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Initializing Eureka in region us-east-1",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:00.665",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Client configured to neither register nor query for data.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:00.673",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Discovery Client initialized at timestamp 1646614440672 with initial instances count: 0",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:00.717",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Initializing ...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:00.719",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.cluster.PeerEurekaNodes",
+  "message" : "Adding new peer nodes [http://localhost:8761/eureka/]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:00.960",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using JSON encoding codec LegacyJacksonJson",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:00.960",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using JSON decoding codec LegacyJacksonJson",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:00.960",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using XML encoding codec XStreamXml",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:00.961",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.discovery.provider.DiscoveryJerseyProvider",
+  "message" : "Using XML decoding codec XStreamXml",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.138",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.cluster.PeerEurekaNodes",
+  "message" : "Replica node URL:  http://localhost:8761/eureka/",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.149",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.registry.AbstractInstanceRegistry",
+  "message" : "Finished initializing remote region registries. All known remote regions: []",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.151",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Initialized",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.162",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver",
+  "message" : "Exposing 1 endpoint(s) beneath base path '/actuator'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.195",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry",
+  "message" : "Registering application REGISTRY with eureka with status UP",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.198",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8761\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.198",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "Setting the eureka configuration..",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.232",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "isAws returned false",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.233",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "Initialized server context",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.234",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl",
+  "message" : "Got 1 instances from neighboring DS node",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.234",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl",
+  "message" : "Renew threshold is: 1",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.234",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl",
+  "message" : "Changing status to UP",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.249",
+  "level" : "INFO",
+  "thread" : "Thread-10",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration",
+  "message" : "Started Eureka Server",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.265",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8761 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.267",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration",
+  "message" : "Updating port to 8761",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:01.603",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.ApiGatewayApplication",
+  "message" : "Started ApiGatewayApplication in 7.948 seconds (JVM running for 8.562)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:11.422",
+  "level" : "INFO",
+  "thread" : "http-nio-8761-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:11.422",
+  "level" : "INFO",
+  "thread" : "http-nio-8761-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:11.424",
+  "level" : "INFO",
+  "thread" : "http-nio-8761-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:11.799",
+  "level" : "INFO",
+  "thread" : "http-nio-8761-exec-2",
+  "logger" : "com.netflix.eureka.registry.AbstractInstanceRegistry",
+  "message" : "Registered instance API-GATEWAY/192.168.43.50:api-gateway:8760 with status UP (replication=false)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:24:12.427",
+  "level" : "INFO",
+  "thread" : "http-nio-8761-exec-3",
+  "logger" : "com.netflix.eureka.registry.AbstractInstanceRegistry",
+  "message" : "Registered instance API-GATEWAY/192.168.43.50:api-gateway:8760 with status UP (replication=true)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:25:01.240",
+  "level" : "INFO",
+  "thread" : "Eureka-EvictionTimer",
+  "logger" : "com.netflix.eureka.registry.AbstractInstanceRegistry",
+  "message" : "Running the evict task with compensationTime 0ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:26:01.240",
+  "level" : "INFO",
+  "thread" : "Eureka-EvictionTimer",
+  "logger" : "com.netflix.eureka.registry.AbstractInstanceRegistry",
+  "message" : "Running the evict task with compensationTime 0ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:01.240",
+  "level" : "INFO",
+  "thread" : "Eureka-EvictionTimer",
+  "logger" : "com.netflix.eureka.registry.AbstractInstanceRegistry",
+  "message" : "Running the evict task with compensationTime 0ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:39.899",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry",
+  "message" : "Unregistering application REGISTRY with eureka with status DOWN",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:39.921",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "Shutting down Eureka Server..",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:39.927",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Shutting down ...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:39.951",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Shut down",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:39.951",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap",
+  "message" : "Eureka Service is now shutdown...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:39.952",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Shutting down ...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:39.958",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.eureka.DefaultEurekaServerContext",
+  "message" : "Shut down",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:39.968",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Shutting down DiscoveryClient ...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:39.969",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.netflix.discovery.DiscoveryClient",
+  "message" : "Completed shut down of DiscoveryClient",
+  "context" : "default"
+}

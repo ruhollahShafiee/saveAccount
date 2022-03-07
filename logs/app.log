@@ -1,0 +1,463 @@
+{
+  "timestamp" : "2022-03-07 04:18:54.803",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.SaveAccountApplication",
+  "message" : "Starting SaveAccountApplication v0.0.1-SNAPSHOT using Java 1.8.0_312 on ruhollah-HP with PID 25248 (/home/ruhollah/Documents/self/interview/saveAccount/rest-controller/target/save-account-exec.jar started by ruhollah in /home/ruhollah/Documents/self/interview/saveAccount)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:54.799",
+  "level" : "INFO",
+  "thread" : "background-preinit",
+  "logger" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 6.2.2.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:54.852",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.SaveAccountApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:56.274",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:56.486",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 200 ms. Found 1 JPA repository interfaces.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:57.264",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 9100 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:57.276",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-9100\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:57.276",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:57.277",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.58]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:57.336",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:57.336",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 2386 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:57.558",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:57.821",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:57.836",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration",
+  "message" : "H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/kadmos'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:58.653",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "liquibase.database",
+  "message" : "Set default schema name to public",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:58.749",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "liquibase.lockservice",
+  "message" : "Successfully acquired change log lock",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:59.355",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "liquibase.changelog",
+  "message" : "Reading from public.databasechangelog",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:59.405",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "liquibase.lockservice",
+  "message" : "Successfully released change log lock",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:59.525",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:18:59.605",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.5.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:00.016",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:00.378",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:00.415",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.hibernate.envers.boot.internal.EnversServiceImpl",
+  "message" : "Envers integration enabled? : true",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:01.082",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:01.094",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:01.735",
+  "level" : "WARN",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:03.446",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver",
+  "message" : "Exposing 15 endpoint(s) beneath base path '/monitoring'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:03.484",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-9100\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:03.503",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 9100 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:19:03.520",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.SaveAccountApplication",
+  "message" : "Started SaveAccountApplication in 9.606 seconds (JVM running for 10.191)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:53.381",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:53.386",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:20:53.403",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:09.306",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.SaveAccountApplication",
+  "message" : "Starting SaveAccountApplication v0.0.1-SNAPSHOT using Java 1.8.0_312 on ruhollah-HP with PID 25820 (/home/ruhollah/Documents/self/interview/saveAccount/rest-controller/target/save-account-exec.jar started by ruhollah in /home/ruhollah/Documents/self/interview/saveAccount)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:09.344",
+  "level" : "INFO",
+  "thread" : "background-preinit",
+  "logger" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 6.2.2.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:09.359",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.SaveAccountApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:10.787",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:11.009",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 200 ms. Found 1 JPA repository interfaces.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:11.801",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 9100 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:11.812",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-9100\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:11.813",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:11.813",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.58]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:11.874",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:11.874",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 2462 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:12.110",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:12.383",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:12.397",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration",
+  "message" : "H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/kadmos'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:13.383",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "liquibase.database",
+  "message" : "Set default schema name to public",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:13.474",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "liquibase.lockservice",
+  "message" : "Successfully acquired change log lock",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:13.934",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "liquibase.changelog",
+  "message" : "Reading from public.databasechangelog",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:13.973",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "liquibase.lockservice",
+  "message" : "Successfully released change log lock",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:14.052",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:14.120",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.5.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:14.420",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:14.714",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:14.749",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.hibernate.envers.boot.internal.EnversServiceImpl",
+  "message" : "Envers integration enabled? : true",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:15.470",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:15.479",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:16.078",
+  "level" : "WARN",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:17.927",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver",
+  "message" : "Exposing 15 endpoint(s) beneath base path '/monitoring'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:17.976",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-9100\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:17.999",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 9100 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:23:18.017",
+  "level" : "INFO",
+  "thread" : "main",
+  "logger" : "com.kadmos.service.saveAccount.SaveAccountApplication",
+  "message" : "Started SaveAccountApplication in 9.617 seconds (JVM running for 10.191)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:40.894",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:40.898",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-03-07 04:27:40.905",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "default"
+}
