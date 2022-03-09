@@ -24,8 +24,8 @@ import org.springframework.context.annotation.Import;
 @EnableFeignClients
 public class SaveAccountApplication {
 
-    public static void main(String[] args) throws Exception{
-        Options options=new Options();
+    public static void main(String[] args) throws Exception {
+        Options options = new Options();
         options.addRequiredOption("p", "port", true, "The port this app will listen on");
 
         CommandLineParser parser = new DefaultParser();
@@ -34,7 +34,6 @@ public class SaveAccountApplication {
         // If port string is not valid, it will throw an exception.
         int port = Integer.parseInt(cmd.getOptionValue("port"));
 
-        // Start Dapr's callback endpoint by passing in the port.
         SpringApplication app = new SpringApplication(SaveAccountApplication.class);
         app.run(String.format("--server.port=%d", port));
     }

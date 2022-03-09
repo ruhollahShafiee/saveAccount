@@ -1,0 +1,22 @@
+version: '3.3'
+services:
+  saveAccount-service:
+    image: saveAccount-service
+    build:
+      context: rest-controller
+      dockerfile: Dockerfile
+    container_name: saveAccount-a-service
+    ports:
+      - 9100:8080
+    networks:
+      - saveAccount-a-service
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: atefeh
+
+networks:
+  customer-service:
+    external:
+      name: local_saving_account_a_service

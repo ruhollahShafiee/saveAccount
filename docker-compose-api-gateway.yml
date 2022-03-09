@@ -1,0 +1,27 @@
+version: '3.3'
+services:
+  api-gateway-service:
+    image: api-gateway-service
+    build:
+      context: api-gateway
+      dockerfile: Dockerfile
+    container_name: api-gateway-service
+    ports:
+      - 8760:8760
+    networks:
+      - api-service
+  api-registry-service:
+    image: api-registry-service
+    build:
+      context: registry
+      dockerfile: Dockerfile
+    container_name: api-registry-service
+    ports:
+      - 8761:8761
+    networks:
+      - api-service
+
+networks:
+  customer-service:
+    external:
+      name: local_api_gateway_service

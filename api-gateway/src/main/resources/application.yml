@@ -7,16 +7,29 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: balance
-          uri: lb://balance
+        - id: a
+          uri: lb://a
           predicates:
-            - Path=/balance/**
+            - Path=/saving/a/balance/**
+          filters:
+            - StripPrefix=2
+        - id: b
+          uri: lb://b
+          predicates:
+            - Path=/saving/b/balance/**
+          filters:
+            - StripPrefix=1
+        - id: registry
+          uri: lb://registry
+          predicates:
+            - Path=/registry/**
           filters:
             - StripPrefix=1
         - id: eureka
           uri: lb://registry
           predicates:
             - Path=/eureka/**
+
 
 info:
   app:

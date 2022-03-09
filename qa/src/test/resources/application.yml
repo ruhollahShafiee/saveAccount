@@ -1,7 +1,7 @@
 server:
   port: 9100
-#  servlet:
-#    context-path: /a
+  servlet:
+    context-path: /
 
 logging:
   level:
@@ -9,73 +9,53 @@ logging:
 
 # Spring
 spring:
-  application:
-    name: a
   h2:
     console:
       enabled: true
       path: /h2-console
-  jackson:
+  jackson: 
     default-property-inclusion: NON_NULL
 
   datasource:
-    name: account-service
-    ### In memory H2 connection string
-    jdbc-url: jdbc:postgresql://localhost:5432/kadmos
-    username: postgres
-    # It needs to be empty for h2 (enter sa into h2-console)
-    password: atefeh # It needs to be empty for h2
-    type: # It needs to be empty for h2
-    #    driver-class-name: org.h2.Driver #it has to be populated to avoid "Failed to load driver in either of HikariConfig class loader or Thread context classloader" error
-    driver-class-name: org.postgresql.Driver
     tlsEnabled: true
+    jdbc-url: jdbc:h2:mem:testdb;Mode=MSSQLServer
+    url: jdbc:h2:mem:testdb;Mode=MSSQLServer
+    username: sa
+    # It needs to be empty for h2 (enter sa into h2-console)
+    password: # It needs to be empty for h2
+    type: # It needs to be empty for h2
+    driver-class-name: org.h2.Driver #it has to be populated to avoid "Failed to load driver in either of HikariConfig class loader or Thread context classloader" error
     minimum-idle: 10 # The minimum number of established connections that should be kept in the pool at all times.
     maximum-pool-size: 50 # The maximum number of connections that should be kept in the pool at all times.
     idle-timeout: 30000 # The maximum amount of time in milliseconds that a connection is allowed to sit idle in connection pool
     max-lifetime: 60000 # The maximum lifetime of a connection in the pool
 
   jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-    show-sql: false
+    show-sql: true
     hibernate:
       ddl-auto: none
     pageable:
       page-size: 100
 
   liquibase:
-    change-log: classpath:db.changelog/db.changelog-master.xml
+    change-log: classpath:/db/changelog/db.changelog-master.xml
     enabled: true
 
-#  cloud:
-#    config:
-#      enabled: false
-  eureka:
-    instance:
-      leaseRenewalIntervalInSeconds: 1
-      leaseExpirationDurationInSeconds: 2
-    client:
-      serviceUrl:
-        defaultZone: http://127.0.0.1:8761/eureka/ #eureka endpoint
-    healthcheck:
-      enabled: true
-    lease:
-      duration: 5
+  cloud:
+    config:
+      enabled: false
+
 management:
   endpoints:
     web:
       base-path: /monitoring
       exposure:
         include: '*'
-    trace:
-      http:
-        include: RESPONSE_HEADERS
   endpoint:
     health:
       show-details: 'ALWAYS'
-    loggers:
-      enabled: true
-  health:
-    circuitbreakers:
+  health: 
+    circuitbreakers: 
       enabled: true
 
 ---
