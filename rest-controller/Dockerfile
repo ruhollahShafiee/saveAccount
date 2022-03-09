@@ -1,21 +1,11 @@
-#FROM amazoncorretto:11-alpine-jdk
-#MAINTAINER github.com/wenqiglantz
-#EXPOSE 9100
-#COPY mssql.jks /tmp/mssql.jks
-#COPY target/customer-service-exec.jar customer-service-exec.jar
-#ENTRYPOINT ["java","-jar","/customer-service-exec.jar", "-p", "9100"]
-
 FROM maven:3.8-openjdk-8@sha256:1d4f75adc85edeb0f5748eebe2cecacd4f9e7ee8ad324c82e24d30c4f65c8b57 AS build
-RUN mkdir /project
-COPY . /project
-WORKDIR /project
-RUN mvn package -e
+#RUN mkdir /project
+WORKDIR /usr/local/src/project
+COPY ./saveAccount ./
+RUN ls -la && mvn -Dmaven.repo.local=.m2/repository package -DskipTests -e
 
 FROM openjdk:8u312-jre@sha256:be64c29adbd1fdf44db51af8bda44481ef4898ab89b28ff9eb966d06a7241c0b AS production
-EXPOSE 9100
-RUN wget https://github.com/Yelp/dumb-init/releases/download/v1.2.5/dumb-init_1.2.5_amd64.deb
-RUN dpkg -i dumb-init_*.deb
 RUN mkdir /app
-COPY --from=build /project/target/save-account-exec.jar /app/save-account-exec.jar
 WORKDIR /app
-CMD "dumb-init" "java" "-jar" "save-account-exec.jar"
+COPY --from=build /usr/local/src/project/rest-controller/target/save-account-exec.jar /app/save-account-exec.jar
+CMD ["java", "-jar", "save-account-exec.jar", "--p", "9100"]

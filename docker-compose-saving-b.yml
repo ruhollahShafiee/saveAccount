@@ -7,16 +7,11 @@ services:
       dockerfile: Dockerfile
     container_name: saveAccount-b-service
     ports:
-      - 9100:8081
-    networks:
-      - saveAccount-b-service
+      - 8081:9100
+    enviroment:
+      EUREKA_SERVER: http://api-registry-service:8761/eureka
   db:
     image: postgres:latest
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: atefeh
-
-networks:
-  customer-service:
-    external:
-      name: local_saving_account_b_service
+      POSTGRES_PASSWORD: 1qaz@WSX

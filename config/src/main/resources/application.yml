@@ -24,7 +24,7 @@ spring:
     jdbc-url: jdbc:postgresql://localhost:5432/kadmos
     username: postgres
     # It needs to be empty for h2 (enter sa into h2-console)
-    password: atefeh # It needs to be empty for h2
+    password: 1qaz@WSX # It needs to be empty for h2
     type: # It needs to be empty for h2
     #    driver-class-name: org.h2.Driver #it has to be populated to avoid "Failed to load driver in either of HikariConfig class loader or Thread context classloader" error
     driver-class-name: org.postgresql.Driver
@@ -55,7 +55,7 @@ spring:
       leaseExpirationDurationInSeconds: 2
     client:
       serviceUrl:
-        defaultZone: http://127.0.0.1:8761/eureka/ #eureka endpoint
+        defaultZone: ${EUREKA_SERVER:http://127.0.0.1:8761/eureka/}
     healthcheck:
       enabled: true
     lease:
@@ -77,13 +77,3 @@ management:
   health:
     circuitbreakers:
       enabled: true
-
----
-# need this block for local build even though some params can be left empty
-global:
-  datasource:
-    truststore:
-      location: /tmp/mssql.jks #fake placeholder value to avoid local build error
-      password:
-      content:
-      type: JKS

@@ -1,22 +1,21 @@
 version: '3.3'
 services:
-  saveAccount-service:
-    image: saveAccount-service
+  a-saving-account-service:
+    image: saving-account-service
     build:
-      context: rest-controller
-      dockerfile: Dockerfile
-    container_name: saveAccount-a-service
+      context: ..
+      dockerfile: saveAccount/rest-controller/Dockerfile
+    container_name: a-saving-account-service
     ports:
-      - 9100:8080
-    networks:
-      - saveAccount-a-service
+      - 8080:9100
+    volumes:
+      - ${PWD}/saving-a-logs:/app/logs
+    environment:
+      EUREKA_SERVER: http://api-registry-service:8761/eureka
+      
   db:
     image: postgres:latest
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: atefeh
+      POSTGRES_PASSWORD: 1qaz@WSX
 
-networks:
-  customer-service:
-    external:
-      name: local_saving_account_a_service
