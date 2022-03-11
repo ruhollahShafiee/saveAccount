@@ -11,28 +11,19 @@ logging:
 spring:
   application:
     name: a
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
   jackson:
     default-property-inclusion: NON_NULL
-
   datasource:
     name: account-service
-    ### In memory H2 connection string
     jdbc-url: jdbc:postgresql://localhost:5432/kadmos
     username: postgres
-    # It needs to be empty for h2 (enter sa into h2-console)
-    password: 1qaz@WSX # It needs to be empty for h2
-    type: # It needs to be empty for h2
-    #    driver-class-name: org.h2.Driver #it has to be populated to avoid "Failed to load driver in either of HikariConfig class loader or Thread context classloader" error
+    password: atefeh
     driver-class-name: org.postgresql.Driver
     tlsEnabled: true
-    minimum-idle: 10 # The minimum number of established connections that should be kept in the pool at all times.
-    maximum-pool-size: 50 # The maximum number of connections that should be kept in the pool at all times.
-    idle-timeout: 30000 # The maximum amount of time in milliseconds that a connection is allowed to sit idle in connection pool
-    max-lifetime: 60000 # The maximum lifetime of a connection in the pool
+    minimum-idle: 10
+    maximum-pool-size: 100
+    idle-timeout: 5000
+    max-lifetime: 60000
 
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
@@ -46,16 +37,13 @@ spring:
     change-log: classpath:db.changelog/db.changelog-master.xml
     enabled: true
 
-  #  cloud:
-  #    config:
-  #      enabled: false
   eureka:
     instance:
       leaseRenewalIntervalInSeconds: 1
       leaseExpirationDurationInSeconds: 2
     client:
       serviceUrl:
-        defaultZone: http://127.0.0.1:8761/eureka/ #eureka endpoint
+        defaultZone: ${EUREKA_SERVER:http://127.0.0.1:8761/eureka/}
     healthcheck:
       enabled: true
     lease:
@@ -77,13 +65,3 @@ management:
   health:
     circuitbreakers:
       enabled: true
-
----
-# need this block for local build even though some params can be left empty
-global:
-  datasource:
-    truststore:
-      location: /tmp/mssql.jks #fake placeholder value to avoid local build error
-      password:
-      content:
-      type: JKS

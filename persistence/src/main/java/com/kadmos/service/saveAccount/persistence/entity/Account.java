@@ -14,7 +14,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Column;
 import java.io.Serializable;
-import java.util.UUID;
+
 
 @Data
 @Builder
@@ -25,8 +25,6 @@ import java.util.UUID;
 public class Account implements Serializable {
 
     @Id
-    @GenericGenerator(name="uuid2" ,strategy = "uuid2")
-    @GeneratedValue(strategy = GenerationType.IDENTITY,generator = "uuid2")
     @Column(name = "account_number",length = 36,nullable = false,updatable = false)
     private String accountNumber;
 

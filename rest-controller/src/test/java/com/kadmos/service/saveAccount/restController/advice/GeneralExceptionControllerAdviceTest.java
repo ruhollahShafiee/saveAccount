@@ -1,6 +1,6 @@
 package com.kadmos.service.saveAccount.restController.advice;
 
-import com.github.wenqiglantz.service.customerservice.data.exception.NotFoundException;
+import com.kadmos.service.saveAccount.data.exception.NotFoundException;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;

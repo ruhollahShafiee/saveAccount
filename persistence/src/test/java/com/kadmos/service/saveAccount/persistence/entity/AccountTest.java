@@ -17,6 +17,6 @@ public class AccountTest {
                 .amount(AMOUNT)
                 .build();
         MatcherAssert.assertThat(object.getAccountNumber(), Matchers.is(Matchers.sameInstance(ACCOUNT_NUMBER)));
-        MatcherAssert.assertThat(object.getAmount(), Matchers.is(Matchers.sameInstance(AMOUNT)));
+        MatcherAssert.assertThat(object.getAmount(), Matchers.is(Matchers.equalTo(AMOUNT)));
     }
 }

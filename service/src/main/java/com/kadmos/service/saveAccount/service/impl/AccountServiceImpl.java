@@ -17,17 +17,8 @@ public class AccountServiceImpl implements AccountService {
 
     private final AccountRepository accountRepository;
 
-    //Time-to-live for messages published.
-    private static final String MESSAGE_TTL_IN_SECONDS = "1000";
-
-    //The topic for order service
-    private static final String TOPIC_ORDER_SERVICE = "order-service";
-
-    //The name of the pubsub
-    private static final String PUBSUB_NAME = "customer-order-integration";
-
     @Override
-    public Balance getBalance(String accountNumber) throws Exception{
+    public Balance getBalance(String accountNumber) throws Exception {
 
         Account account = accountRepository.findByAccountNumber(accountNumber).orElseThrow(() -> new NotFoundException("Could not find customer with account number: " + accountNumber));
         return new Balance(account.getAmount());
@@ -35,10 +26,10 @@ public class AccountServiceImpl implements AccountService {
     }
 
     @Override
-    public void updateAccount(String accountNumber, Balance balacne) {
+    public void updateAccount(String accountNumber, Balance balance){
 
-        Account account=accountRepository.findByAccountNumber(accountNumber).orElseThrow(() -> new NotFoundException("Could not find customer with account number: " + accountNumber));
-        account.setAmount(balacne.getAmount());
+        Account account = accountRepository.findByAccountNumber(accountNumber).orElseThrow(() -> new NotFoundException("Could not find customer with account number: " + accountNumber));
+        account.setAmount(balance.getAmount());
         accountRepository.save(account);
 
 

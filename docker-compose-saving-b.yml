@@ -14,4 +14,4 @@ services:
     image: postgres:latest
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 1qaz@WSX
+      POSTGRES_PASSWORD: atefeh

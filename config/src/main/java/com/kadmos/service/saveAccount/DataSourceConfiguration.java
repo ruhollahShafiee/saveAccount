@@ -17,28 +17,11 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 @Configuration
-@EnableConfigurationProperties({DataSourceTruststoreProperties.class})
 public class DataSourceConfiguration {
-    private final boolean tlsEnabled;
-
-    public DataSourceConfiguration(@Value("${spring.datasource.tlsEnabled:false}") boolean tlsEnabled){
-        this.tlsEnabled=tlsEnabled;
-    }
-
     @Bean
     @ConfigurationProperties(prefix = "spring.datasource")
-    public HikariDataSource dataSource(DataSourceTruststoreProperties trustStoreProperties) throws Exception{
+    public HikariDataSource dataSource() throws Exception{
         HikariDataSource ds = DataSourceBuilder.create().type(HikariDataSource.class).build();
-        if (tlsEnabled) {
-            try (InputStream in = new Base64InputStream(new ByteArrayInputStream(trustStoreProperties.getContent().getBytes(StandardCharsets.UTF_8.name())))) {
-                Files.copy(in,
-                        Paths.get(trustStoreProperties.getLocation()),
-                        StandardCopyOption.REPLACE_EXISTING);
-            }
-            ds.addDataSourceProperty("javax.net.ssl.trustStore", trustStoreProperties.getLocation());
-            ds.addDataSourceProperty("javax.net.ssl.trustStoreType", trustStoreProperties.getType());
-            ds.addDataSourceProperty("javax.net.ssl.trustStorePassword", trustStoreProperties.getPassword());
-        }
         return ds;
     }
 }
