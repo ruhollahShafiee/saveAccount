@@ -36,7 +36,7 @@ public class AccountSteps extends CucumberBootstrap {
     @After
     public void cleanUp() {
         log.info(">>> cleaning up after scenario!");
-//        accountRepository.deleteAll();
+        accountRepository.deleteAll();
     }
 
     @AfterStep
@@ -57,12 +57,14 @@ public class AccountSteps extends CucumberBootstrap {
         //placeholder for before step logic
     }
 
-    @Given("^the collection of customers:$")
+
+    @Given("^the collection of accounts:$")
     public void collection_of_accounts(DataTable dataTable) {
-        dataTable.asList(Account.class).forEach(balance -> {
-            saveCustomer((Balance) balance);
+        dataTable.asList(Account.class).forEach(account -> {
+            saveBalance((Account)account);
         });
     }
+
 
     @When("^accountNumber (.+) is passed in to retrieve the balance$")
     public void get_account_value(String accountNumber) {
@@ -74,10 +76,10 @@ public class AccountSteps extends CucumberBootstrap {
 
 
 
-    private void saveCustomer(Balance balance) {
+    private void saveBalance(Account account) {
         accountRepository.save(Account.builder()
-                .accountNumber(ACCOUNT_NUMBER)
-                .amount(balance.getAmount())
+                .accountNumber(account.getAccountNumber())
+                .amount(account.getAmount())
                 .build());
     }
 }

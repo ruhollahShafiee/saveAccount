@@ -40,10 +40,8 @@ public class BalanceController {
             @ApiResponse(responseCode = "500", description = "Unexpected system exception")
     })
     @GetMapping(produces = JSON)
-    public ResponseEntity<Map> getBalance() throws Exception {
-        Map data = new HashMap();
-        data.put("balance", accountService.getBalance(accountNumber));
-        return ResponseEntity.ok(data);
+    public ResponseEntity getBalance() throws Exception {
+        return ResponseEntity.ok(accountService.getBalance(accountNumber));
     }
 
 

@@ -9,14 +9,9 @@ import org.jmock.lib.legacy.ClassImposteriser;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.RegisterExtension;
-import org.springframework.data.domain.PageImpl;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.util.UriComponentsBuilder;
-
-import java.util.Collections;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
@@ -29,10 +24,6 @@ public class BalanceControllerTest {
     private static final Balance BALANCE = Balance.builder()
             .amount(AMOUNT)
             .build();
-
-    private static final String PATH = "/balance";
-    private static final UriComponentsBuilder URI_COMPONENTS_BUILDER = UriComponentsBuilder.fromPath(PATH);
-
     private UriComponentsBuilder uriBuilder;
 
     private AccountService accountService;
@@ -60,7 +51,6 @@ public class BalanceControllerTest {
         });
 
         BalanceController balanceController = new BalanceController(accountService);
-
         ResponseEntity responseEntity = balanceController.getBalance();
         assertThat(responseEntity.getStatusCode(), is(equalTo(HttpStatus.OK)));
         assertThat(responseEntity.getBody(), is(sameInstance(BALANCE)));
@@ -68,37 +58,19 @@ public class BalanceControllerTest {
 
     @Test
     public void updateAccount() throws Exception {
-//        CustomerInfo customerInfoNew = CustomerInfo.builder()
-//                .firstName(FIRST_NAME)
-//                .lastName(LAST_NAME)
-//                .build();
-//
-//        context.checking(new Expectations() {
-//            {
-//                oneOf(customerService).updateCustomer(CUSTOMER_ID, customerInfoNew);
-//            }
-//        });
-//
-//        CustomerController customerController = new CustomerController(customerService);
-//
-//        ResponseEntity responseEntity = customerController.updateCustomer(CUSTOMER_ID, customerInfoNew);
-//        assertThat(responseEntity.getStatusCode(), is(equalTo(HttpStatus.NO_CONTENT)));
-//        assertThat(responseEntity.getBody(), is(nullValue()));
-    }
+        Balance balance = Balance.builder()
+                .amount(AMOUNT)
+                .build();
 
-    @Test
-    public void deleteCustomer() throws Exception {
-//        context.checking(new Expectations() {
-//            {
-//                oneOf(customerService).deleteCustomer(CUSTOMER_ID);
-//            }
-//        });
-//
-//        CustomerController customerController = new CustomerController(customerService);
-//
-//        ResponseEntity responseEntity = customerController.deleteCustomer(CUSTOMER_ID);
-//        assertThat(responseEntity.getStatusCode(), is(equalTo(HttpStatus.NO_CONTENT)));
-//        assertThat(responseEntity.getBody(), is(nullValue()));
-//        assertThat(responseEntity.getBody(), is(nullValue()));
+        context.checking(new Expectations() {
+            {
+                oneOf(accountService).updateAccount(ACCOUNT_NUMBER, balance);
+            }
+        });
+
+        BalanceController balanceController = new BalanceController(accountService);
+        ResponseEntity responseEntity = balanceController.updateBalance(balance);
+        assertThat(responseEntity.getStatusCode(), is(equalTo(HttpStatus.NO_CONTENT)));
+        assertThat(responseEntity.getBody(), is(nullValue()));
     }
 }
